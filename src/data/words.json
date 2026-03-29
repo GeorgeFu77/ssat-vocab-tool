@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "word": "Abate",
+    "definition": "To reduce in intensity, amount, or degree",
+    "exampleSentence": "The storm began to abate after several hours of heavy rain.",
+    "synonyms": ["diminish", "decrease", "subside", "lessen"],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 2,
+    "word": "Benevolent",
+    "definition": "Well-meaning and kindly; generous",
+    "exampleSentence": "The benevolent donor gave millions to the children's hospital.",
+    "synonyms": ["kind", "generous", "charitable", "compassionate"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 3,
+    "word": "Candid",
+    "definition": "Truthful and straightforward; frank",
+    "exampleSentence": "She gave a candid interview about her struggles in school.",
+    "synonyms": ["honest", "frank", "direct", "sincere"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 4,
+    "word": "Diligent",
+    "definition": "Having or showing care and effort in one's work",
+    "exampleSentence": "The diligent student spent hours preparing for the exam.",
+    "synonyms": ["hardworking", "industrious", "meticulous", "thorough"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 5,
+    "word": "Elusive",
+    "definition": "Difficult to find, catch, or achieve",
+    "exampleSentence": "The elusive butterfly escaped every attempt to catch it.",
+    "synonyms": ["evasive", "slippery", "hard to find", "fleeting"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 6,
+    "word": "Frivolous",
+    "definition": "Not having any serious purpose or value",
+    "exampleSentence": "The judge dismissed the frivolous lawsuit immediately.",
+    "synonyms": ["trivial", "silly", "superficial", "petty"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 7,
+    "word": "Gregarious",
+    "definition": "Fond of company; sociable",
+    "exampleSentence": "Her gregarious personality made her popular at every party.",
+    "synonyms": ["sociable", "outgoing", "friendly", "extroverted"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 8,
+    "word": "Hamper",
+    "definition": "To hinder or impede the movement or progress of",
+    "exampleSentence": "The heavy snow hampered rescue efforts in the mountains.",
+    "synonyms": ["hinder", "obstruct", "impede", "restrict"],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 9,
+    "word": "Imminent",
+    "definition": "About to happen; impending",
+    "exampleSentence": "The dark clouds suggested that a thunderstorm was imminent.",
+    "synonyms": ["impending", "approaching", "forthcoming", "looming"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 10,
+    "word": "Jubilant",
+    "definition": "Feeling or expressing great happiness and triumph",
+    "exampleSentence": "The team was jubilant after winning the championship game.",
+    "synonyms": ["overjoyed", "elated", "thrilled", "ecstatic"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 11,
+    "word": "Keen",
+    "definition": "Eager or enthusiastic; sharp or penetrating",
+    "exampleSentence": "She has a keen interest in marine biology.",
+    "synonyms": ["eager", "enthusiastic", "sharp", "perceptive"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 12,
+    "word": "Lament",
+    "definition": "To express sorrow or regret about something",
+    "exampleSentence": "The students lamented the cancellation of the field trip.",
+    "synonyms": ["mourn", "grieve", "bewail", "deplore"],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 13,
+    "word": "Meticulous",
+    "definition": "Showing great attention to detail; very careful",
+    "exampleSentence": "The meticulous artist spent weeks perfecting every brushstroke.",
+    "synonyms": ["thorough", "precise", "careful", "painstaking"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 14,
+    "word": "Nonchalant",
+    "definition": "Feeling or appearing casually calm and relaxed",
+    "exampleSentence": "He gave a nonchalant shrug when asked about the difficult test.",
+    "synonyms": ["casual", "indifferent", "unconcerned", "composed"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 15,
+    "word": "Ominous",
+    "definition": "Giving the impression that something bad is going to happen",
+    "exampleSentence": "The ominous silence in the forest made the hikers uneasy.",
+    "synonyms": ["threatening", "menacing", "sinister", "foreboding"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 16,
+    "word": "Prudent",
+    "definition": "Acting with or showing care and thought for the future",
+    "exampleSentence": "It would be prudent to save money for unexpected expenses.",
+    "synonyms": ["wise", "sensible", "cautious", "judicious"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 17,
+    "word": "Querulous",
+    "definition": "Complaining in a whiny manner",
+    "exampleSentence": "The querulous child complained about everything during the trip.",
+    "synonyms": ["whiny", "petulant", "grumbling", "peevish"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 18,
+    "word": "Resilient",
+    "definition": "Able to recover quickly from difficult conditions",
+    "exampleSentence": "The resilient community rebuilt after the devastating flood.",
+    "synonyms": ["tough", "strong", "adaptable", "hardy"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 19,
+    "word": "Succinct",
+    "definition": "Briefly and clearly expressed",
+    "exampleSentence": "The professor's succinct explanation made the concept easy to understand.",
+    "synonyms": ["concise", "brief", "terse", "compact"],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 20,
+    "word": "Tenacious",
+    "definition": "Holding firmly to something; persistent and determined",
+    "exampleSentence": "The tenacious athlete trained every day despite her injury.",
+    "synonyms": ["persistent", "determined", "resolute", "stubborn"],
+    "partOfSpeech": "adjective"
+  }
+]
