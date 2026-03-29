@@ -1,9 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import Link from "next/link";
 import words from "@/data/words.json";
-import { getDueWordIds, recordAnswer } from "@/lib/srs";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -20,49 +19,25 @@ function generateChoices(correctWord: typeof words[0], allWords: typeof words) {
 }
 
 export default function QuizPage() {
-  const [dueWords, setDueWords] = useState<typeof words>([]);
+  const [quizWords] = useState(() => shuffle([...words]));
   const [current, setCurrent] = useState(0);
-  const [choices, setChoices] = useState<typeof words>([]);
+  const [choices, setChoices] = useState<typeof words>(() =>
+    generateChoices(shuffle([...words])[0], words)
+  );
   const [selected, setSelected] = useState<number | null>(null);
   const [results, setResults] = useState<{ correct: number; wrong: number }>({
     correct: 0,
     wrong: 0,
   });
   const [finished, setFinished] = useState(false);
-  const [loaded, setLoaded] = useState(false);
 
   const setupChoices = useCallback(
-    (index: number, due: typeof words) => {
-      setChoices(generateChoices(due[index], words));
+    (index: number, quiz: typeof words) => {
+      setChoices(generateChoices(quiz[index], words));
       setSelected(null);
     },
     []
   );
-
-  useEffect(() => {
-    const dueIds = getDueWordIds(words.map((w) => w.id));
-    const due = shuffle(words.filter((w) => dueIds.includes(w.id)));
-    setDueWords(due);
-    if (due.length > 0) setupChoices(0, due);
-    setLoaded(true);
-  }, [setupChoices]);
-
-  if (!loaded) return null;
-
-  if (dueWords.length === 0) {
-    return (
-      <main className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
-        <h1 className="text-2xl font-bold mb-4">Nothing to quiz!</h1>
-        <p className="text-gray-400 mb-8">All words are reviewed. Come back later.</p>
-        <Link
-          href="/"
-          className="bg-gray-800 hover:bg-gray-700 border border-gray-700 px-5 py-2 rounded-lg transition"
-        >
-          Back to Browse
-        </Link>
-      </main>
-    );
-  }
 
   if (finished) {
     const total = results.correct + results.wrong;
@@ -72,11 +47,6 @@ export default function QuizPage() {
         <p className="text-lg text-gray-300 mb-2">
           {results.correct} / {total} correct
         </p>
-        {results.wrong > 0 && (
-          <p className="text-gray-400 mb-6">
-            {results.wrong} word{results.wrong > 1 ? "s" : ""} moved back to Box 1
-          </p>
-        )}
         <Link
           href="/"
           className="bg-gray-800 hover:bg-gray-700 border border-gray-700 px-5 py-2 rounded-lg transition"
@@ -87,25 +57,24 @@ export default function QuizPage() {
     );
   }
 
-  const word = dueWords[current];
+  const word = quizWords[current];
 
   const handleSelect = (choiceId: number) => {
     if (selected !== null) return; // already answered
     setSelected(choiceId);
     const correct = choiceId === word.id;
-    recordAnswer(word.id, correct);
     setResults((r) => ({
       correct: r.correct + (correct ? 1 : 0),
       wrong: r.wrong + (correct ? 0 : 1),
     }));
 
     setTimeout(() => {
-      if (current + 1 >= dueWords.length) {
+      if (current + 1 >= quizWords.length) {
         setFinished(true);
       } else {
         const next = current + 1;
         setCurrent(next);
-        setupChoices(next, dueWords);
+        setupChoices(next, quizWords);
       }
     }, 1000);
   };
@@ -114,7 +83,7 @@ export default function QuizPage() {
     <main className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
       <h1 className="text-2xl font-bold mb-2">Quiz Mode</h1>
       <p className="text-gray-400 text-sm mb-8">
-        Question {current + 1} of {dueWords.length}
+        Question {current + 1} of {quizWords.length}
       </p>
 
       <div className="w-full max-w-lg bg-gray-800 border border-gray-700 rounded-2xl shadow-lg p-8 mb-8">
