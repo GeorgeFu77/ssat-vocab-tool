@@ -1,0 +1,1469 @@
+[
+  {
+    "word": "ambiguous",
+    "definition": "having more than one possible meaning; unclear",
+    "exampleSentence": "The ambiguous instructions left the students confused about what to do.",
+    "synonyms": ["unclear", "vague", "indefinite"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "congenial",
+    "definition": "pleasant and friendly; agreeable in nature",
+    "exampleSentence": "The congenial host made every guest feel right at home.",
+    "synonyms": ["friendly", "pleasant", "agreeable", "amiable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "ephemeral",
+    "definition": "lasting for a very short time",
+    "exampleSentence": "The beauty of the cherry blossoms is ephemeral, lasting only a few days.",
+    "synonyms": ["fleeting", "brief", "short-lived", "transient"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "fervent",
+    "definition": "having or displaying a passionate intensity",
+    "exampleSentence": "The fervent crowd cheered passionately for their favorite singer.",
+    "synonyms": ["passionate", "intense", "ardent", "enthusiastic"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "hasten",
+    "definition": "to move or act quickly; to speed up",
+    "exampleSentence": "She hastened to finish her homework before dinner.",
+    "synonyms": ["hurry", "rush", "accelerate", "quicken"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "juxtapose",
+    "definition": "to place two things close together to compare or contrast them",
+    "exampleSentence": "The artist chose to juxtapose light and dark colors in the painting.",
+    "synonyms": ["compare", "contrast", "place side by side"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "magnanimous",
+    "definition": "very generous or forgiving, especially toward a rival or enemy",
+    "exampleSentence": "The magnanimous winner congratulated his opponent and praised his effort.",
+    "synonyms": ["generous", "forgiving", "noble", "charitable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "nonchalant",
+    "definition": "feeling or appearing casually calm and relaxed; not worried",
+    "exampleSentence": "She tried to act nonchalant even though she was nervous about the exam.",
+    "synonyms": ["casual", "unconcerned", "indifferent", "cool"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "placate",
+    "definition": "to make someone less angry or upset; to calm down",
+    "exampleSentence": "The manager offered a refund to placate the unhappy customer.",
+    "synonyms": ["calm", "appease", "soothe", "pacify"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "querulous",
+    "definition": "complaining in a whiny or petulant way",
+    "exampleSentence": "The querulous child whined about everything during the long car ride.",
+    "synonyms": ["whiny", "complaining", "petulant", "grumbling"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "succinct",
+    "definition": "briefly and clearly expressed; using few words",
+    "exampleSentence": "The teacher asked for a succinct answer, not a long essay.",
+    "synonyms": ["concise", "brief", "short", "to the point"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "trepidation",
+    "definition": "a feeling of fear or anxiety about something that may happen",
+    "exampleSentence": "She approached the stage with trepidation before her first speech.",
+    "synonyms": ["fear", "anxiety", "nervousness", "apprehension"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "unscrupulous",
+    "definition": "having no moral principles; dishonest and unfair",
+    "exampleSentence": "The unscrupulous salesman tricked elderly customers into buying things they did not need.",
+    "synonyms": ["dishonest", "immoral", "corrupt", "deceitful"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "venerate",
+    "definition": "to regard with great respect and admiration",
+    "exampleSentence": "Many cultures venerate their elders for their wisdom and experience.",
+    "synonyms": ["respect", "revere", "honor", "admire"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "abrupt",
+    "definition": "sudden and unexpected; brief to the point of being rude",
+    "exampleSentence": "The abrupt ending of the movie left the audience wanting more.",
+    "synonyms": ["sudden", "unexpected", "hasty", "curt"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "accurate",
+    "definition": "correct in all details; exact and without errors",
+    "exampleSentence": "The weather forecast turned out to be surprisingly accurate.",
+    "synonyms": ["correct", "precise", "exact", "true"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "amend",
+    "definition": "to make changes to improve or correct something",
+    "exampleSentence": "The senator proposed to amend the bill before the final vote.",
+    "synonyms": ["revise", "modify", "correct", "improve"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "anecdote",
+    "definition": "a short, amusing or interesting story about a real event or person",
+    "exampleSentence": "The speaker shared a funny anecdote about her childhood.",
+    "synonyms": ["story", "tale", "narrative", "account"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "apathy",
+    "definition": "a lack of interest, enthusiasm, or concern",
+    "exampleSentence": "The students showed apathy toward the school election and few bothered to vote.",
+    "synonyms": ["indifference", "disinterest", "unconcern"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "austere",
+    "definition": "strict and serious in manner; having no comforts or luxuries",
+    "exampleSentence": "The austere classroom had only desks, chairs, and a chalkboard.",
+    "synonyms": ["strict", "severe", "plain", "harsh"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "beacon",
+    "definition": "a light or signal used to guide or warn; a source of inspiration",
+    "exampleSentence": "The lighthouse served as a beacon for ships navigating the rocky coast.",
+    "synonyms": ["signal", "guide", "light"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "benign",
+    "definition": "gentle and kind; not harmful",
+    "exampleSentence": "The doctor assured the patient that the tumor was benign and not dangerous.",
+    "synonyms": ["harmless", "gentle", "mild", "kind"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "bountiful",
+    "definition": "large in quantity; generous and giving freely",
+    "exampleSentence": "The bountiful harvest provided enough food for the entire village.",
+    "synonyms": ["plentiful", "abundant", "generous", "ample"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "brevity",
+    "definition": "shortness of time or length; being brief",
+    "exampleSentence": "The brevity of his speech surprised everyone who expected a long talk.",
+    "synonyms": ["shortness", "briefness", "conciseness"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "calamity",
+    "definition": "a sudden event that causes great damage or suffering",
+    "exampleSentence": "The earthquake was a terrible calamity that destroyed hundreds of homes.",
+    "synonyms": ["disaster", "catastrophe", "tragedy"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "callous",
+    "definition": "showing a cruel lack of concern for others' feelings",
+    "exampleSentence": "His callous remarks about the accident hurt everyone who heard them.",
+    "synonyms": ["heartless", "insensitive", "unfeeling", "cruel"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "captivate",
+    "definition": "to attract and hold the attention or interest of someone",
+    "exampleSentence": "The magician's performance captivated the entire audience.",
+    "synonyms": ["fascinate", "enchant", "charm", "enthrall"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "cautious",
+    "definition": "careful to avoid potential problems or dangers",
+    "exampleSentence": "The cautious driver slowed down when the road became icy.",
+    "synonyms": ["careful", "wary", "prudent", "guarded"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "clamber",
+    "definition": "to climb or move in an awkward and difficult way using hands and feet",
+    "exampleSentence": "The children clambered over the rocks to reach the tide pools.",
+    "synonyms": ["climb", "scramble", "crawl"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "clarity",
+    "definition": "the quality of being clear and easy to understand",
+    "exampleSentence": "The teacher praised the clarity of her essay and its well-organized ideas.",
+    "synonyms": ["clearness", "precision", "simplicity"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "collaborate",
+    "definition": "to work together with others on a project or task",
+    "exampleSentence": "The two scientists decided to collaborate on their research project.",
+    "synonyms": ["cooperate", "partner", "team up", "work together"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "complacent",
+    "definition": "feeling so satisfied with oneself that one does not try harder",
+    "exampleSentence": "The team became complacent after winning several games in a row.",
+    "synonyms": ["self-satisfied", "smug", "unconcerned"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "composure",
+    "definition": "the state of being calm and in control of one's feelings",
+    "exampleSentence": "She maintained her composure even when the audience asked tough questions.",
+    "synonyms": ["calmness", "self-control", "poise", "serenity"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "confiscate",
+    "definition": "to take someone's property by authority",
+    "exampleSentence": "The teacher had to confiscate the student's phone during the test.",
+    "synonyms": ["seize", "take", "impound", "appropriate"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "confront",
+    "definition": "to face up to and deal with a difficult situation or person",
+    "exampleSentence": "She decided to confront the bully instead of staying silent.",
+    "synonyms": ["face", "challenge", "oppose"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "consent",
+    "definition": "permission for something to happen or agreement to do something",
+    "exampleSentence": "You must get your parents' consent before going on the field trip.",
+    "synonyms": ["permission", "agreement", "approval", "assent"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "conspire",
+    "definition": "to secretly plan with others to do something harmful or illegal",
+    "exampleSentence": "The characters in the novel conspire to overthrow the unjust king.",
+    "synonyms": ["plot", "scheme", "collude"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "contentious",
+    "definition": "causing or likely to cause arguments and disagreement",
+    "exampleSentence": "The contentious debate lasted for hours with neither side backing down.",
+    "synonyms": ["controversial", "disputed", "argumentative"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "cordial",
+    "definition": "warm and friendly",
+    "exampleSentence": "The new neighbors gave us a cordial welcome when we moved in.",
+    "synonyms": ["friendly", "warm", "gracious", "amiable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "corrode",
+    "definition": "to slowly destroy or damage metal or other material through a chemical reaction",
+    "exampleSentence": "Saltwater can corrode the metal parts of a boat if not properly maintained.",
+    "synonyms": ["rust", "erode", "deteriorate", "decay"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "cringe",
+    "definition": "to shrink back in fear, embarrassment, or discomfort",
+    "exampleSentence": "He could not help but cringe when he heard his own voice on the recording.",
+    "synonyms": ["flinch", "wince", "recoil", "shrink"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "cumbersome",
+    "definition": "large, heavy, and difficult to carry or use",
+    "exampleSentence": "The cumbersome suitcase was too heavy for her to lift onto the shelf.",
+    "synonyms": ["bulky", "heavy", "awkward", "unwieldy"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "curtail",
+    "definition": "to reduce or limit something",
+    "exampleSentence": "The school decided to curtail recess time due to the cold weather.",
+    "synonyms": ["reduce", "cut back", "limit", "shorten"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "daunting",
+    "definition": "seeming difficult to deal with; intimidating",
+    "exampleSentence": "Writing a twenty-page research paper was a daunting task for the students.",
+    "synonyms": ["intimidating", "overwhelming", "frightening", "formidable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "deft",
+    "definition": "skillful and quick in one's movements or actions",
+    "exampleSentence": "The deft surgeon completed the operation in record time.",
+    "synonyms": ["skillful", "adept", "nimble", "handy"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "demeanor",
+    "definition": "outward behavior or manner toward others",
+    "exampleSentence": "Her calm demeanor helped the nervous students relax before the exam.",
+    "synonyms": ["manner", "behavior", "attitude", "conduct"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "denounce",
+    "definition": "to publicly declare that something is wrong or evil",
+    "exampleSentence": "Several leaders denounced the act of violence in strong terms.",
+    "synonyms": ["criticize", "condemn", "censure", "attack"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "desolate",
+    "definition": "empty and lacking people or life; feeling very lonely and sad",
+    "exampleSentence": "The desolate landscape of the abandoned town was eerie and quiet.",
+    "synonyms": ["barren", "empty", "bleak", "forsaken"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "deviate",
+    "definition": "to depart from an established course or standard",
+    "exampleSentence": "The pilot had to deviate from the flight plan due to bad weather.",
+    "synonyms": ["stray", "diverge", "depart", "veer"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "devise",
+    "definition": "to plan or invent a method or idea through careful thought",
+    "exampleSentence": "The students worked together to devise a plan for their science project.",
+    "synonyms": ["create", "invent", "design", "formulate"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "dignify",
+    "definition": "to make something seem worthy or important",
+    "exampleSentence": "She refused to dignify the rude question with a response.",
+    "synonyms": ["honor", "elevate", "ennoble"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "discord",
+    "definition": "disagreement or lack of harmony between people",
+    "exampleSentence": "There was discord among the team members about the best strategy.",
+    "synonyms": ["conflict", "disagreement", "strife", "tension"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "discreet",
+    "definition": "careful and cautious to avoid attracting attention or causing offense",
+    "exampleSentence": "She was discreet about the surprise party so no one found out.",
+    "synonyms": ["careful", "tactful", "prudent", "subtle"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "dwindle",
+    "definition": "to gradually become smaller or less",
+    "exampleSentence": "Their food supplies began to dwindle as the journey continued.",
+    "synonyms": ["decrease", "shrink", "diminish", "decline"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "earnest",
+    "definition": "showing sincere and intense conviction; serious",
+    "exampleSentence": "He made an earnest promise to help his friend through the difficult time.",
+    "synonyms": ["sincere", "serious", "genuine", "heartfelt"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "elicit",
+    "definition": "to draw out a response or reaction from someone",
+    "exampleSentence": "The comedian's jokes were able to elicit laughter from the entire crowd.",
+    "synonyms": ["draw out", "evoke", "provoke", "extract"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "endeavor",
+    "definition": "a serious effort or attempt to do something",
+    "exampleSentence": "Learning a new language is a challenging but rewarding endeavor.",
+    "synonyms": ["effort", "attempt", "undertaking", "enterprise"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "erratic",
+    "definition": "unpredictable and inconsistent in behavior or movement",
+    "exampleSentence": "The erratic weather changed from sunny to stormy within minutes.",
+    "synonyms": ["unpredictable", "irregular", "inconsistent", "unstable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "esteem",
+    "definition": "respect and admiration for someone",
+    "exampleSentence": "The beloved teacher was held in high esteem by all her students.",
+    "synonyms": ["respect", "admiration", "regard", "honor"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "exert",
+    "definition": "to apply force, effort, or influence",
+    "exampleSentence": "She had to exert all her strength to push open the heavy gate.",
+    "synonyms": ["apply", "use", "exercise", "employ"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "exhilarate",
+    "definition": "to make someone feel very happy, excited, or thrilled",
+    "exampleSentence": "The roller coaster ride exhilarated everyone who tried it.",
+    "synonyms": ["thrill", "excite", "delight", "invigorate"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "feasible",
+    "definition": "possible and practical to do or achieve",
+    "exampleSentence": "The committee discussed whether the new park project was financially feasible.",
+    "synonyms": ["possible", "practical", "achievable", "doable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "ferocious",
+    "definition": "extremely fierce or violent",
+    "exampleSentence": "The ferocious storm knocked down trees and power lines across the city.",
+    "synonyms": ["fierce", "savage", "violent", "brutal"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "fluctuate",
+    "definition": "to rise and fall irregularly in number or amount",
+    "exampleSentence": "Gas prices tend to fluctuate throughout the year.",
+    "synonyms": ["vary", "change", "shift", "waver"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "forlorn",
+    "definition": "pitifully sad, lonely, or abandoned",
+    "exampleSentence": "The forlorn puppy sat at the shelter door waiting for someone to adopt it.",
+    "synonyms": ["sad", "lonely", "desolate", "miserable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "formidable",
+    "definition": "inspiring fear or respect through being impressively large, powerful, or capable",
+    "exampleSentence": "The chess champion proved to be a formidable opponent.",
+    "synonyms": ["impressive", "powerful", "daunting", "mighty"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "frivolous",
+    "definition": "not having any serious purpose or value",
+    "exampleSentence": "She avoided frivolous spending and saved money for important things.",
+    "synonyms": ["trivial", "silly", "unimportant", "petty"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "gait",
+    "definition": "a person's manner of walking",
+    "exampleSentence": "The horse had a smooth, steady gait that made riding comfortable.",
+    "synonyms": ["walk", "stride", "step", "pace"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "gaunt",
+    "definition": "extremely thin and bony, especially because of illness or hunger",
+    "exampleSentence": "After weeks lost in the wilderness, the hikers looked gaunt and exhausted.",
+    "synonyms": ["thin", "skinny", "haggard", "emaciated"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "glare",
+    "definition": "to stare in an angry or fierce way",
+    "exampleSentence": "The teacher gave the noisy students a stern glare to quiet them down.",
+    "synonyms": ["stare", "scowl", "frown", "glower"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "gratify",
+    "definition": "to give someone pleasure or satisfaction",
+    "exampleSentence": "It gratified her to see her hard work finally pay off.",
+    "synonyms": ["please", "satisfy", "delight"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "guile",
+    "definition": "clever but sometimes dishonest behavior used to trick people",
+    "exampleSentence": "The fox used guile to escape the trap set by the hunters.",
+    "synonyms": ["cunning", "craftiness", "trickery", "deceit"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "hamper",
+    "definition": "to prevent the free movement or progress of something",
+    "exampleSentence": "Heavy rain hampered the construction crew's progress on the new building.",
+    "synonyms": ["hinder", "obstruct", "impede", "restrict"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "hardy",
+    "definition": "able to endure difficult conditions; strong and robust",
+    "exampleSentence": "Only hardy plants can survive the freezing temperatures of the tundra.",
+    "synonyms": ["tough", "sturdy", "strong", "resilient"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "havoc",
+    "definition": "widespread destruction or chaos",
+    "exampleSentence": "The tornado wreaked havoc on the small town, damaging dozens of homes.",
+    "synonyms": ["destruction", "chaos", "devastation", "ruin"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "haughty",
+    "definition": "behaving in a superior or arrogant way toward others",
+    "exampleSentence": "Her haughty attitude made it hard for her to make friends.",
+    "synonyms": ["arrogant", "proud", "snobbish", "conceited"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "haven",
+    "definition": "a place of safety or refuge",
+    "exampleSentence": "The library was a quiet haven where she could study in peace.",
+    "synonyms": ["refuge", "sanctuary", "shelter", "retreat"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "herald",
+    "definition": "to be a sign that something important is about to happen; to announce",
+    "exampleSentence": "The first warm breeze of spring heralded the end of winter.",
+    "synonyms": ["announce", "signal", "proclaim", "indicate"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "idyllic",
+    "definition": "extremely happy, peaceful, or picturesque",
+    "exampleSentence": "They spent an idyllic afternoon reading by the lake.",
+    "synonyms": ["peaceful", "perfect", "picturesque", "blissful"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "impartially",
+    "definition": "in a fair way that treats all sides equally",
+    "exampleSentence": "The referee judged the competition impartially without showing any favoritism.",
+    "synonyms": ["fairly", "objectively", "neutrally", "equitably"],
+    "partOfSpeech": "adverb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "impetuous",
+    "definition": "acting quickly without thought or care",
+    "exampleSentence": "His impetuous decision to quit his job surprised everyone.",
+    "synonyms": ["impulsive", "hasty", "rash", "reckless"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "incessant",
+    "definition": "continuing without stopping; nonstop",
+    "exampleSentence": "The incessant barking of the neighbor's dog kept everyone awake.",
+    "synonyms": ["constant", "nonstop", "unending", "relentless"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "indignant",
+    "definition": "feeling or showing anger because of something that is unfair",
+    "exampleSentence": "She was indignant when she was falsely accused of cheating.",
+    "synonyms": ["angry", "offended", "outraged", "resentful"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "infer",
+    "definition": "to figure out something based on evidence rather than direct statements",
+    "exampleSentence": "From the clues in the story, the reader can infer that the character is hiding something.",
+    "synonyms": ["deduce", "conclude", "gather", "reason"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "inflict",
+    "definition": "to cause something unpleasant to be suffered by someone",
+    "exampleSentence": "The bully tried to inflict pain on others to feel powerful.",
+    "synonyms": ["cause", "impose", "deliver", "administer"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "instigate",
+    "definition": "to cause an event or situation to happen by one's actions",
+    "exampleSentence": "The troublemaker tried to instigate a fight between the two groups.",
+    "synonyms": ["provoke", "incite", "trigger", "stir up"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "intrepid",
+    "definition": "fearless and adventurous",
+    "exampleSentence": "The intrepid explorer ventured deep into the uncharted jungle.",
+    "synonyms": ["fearless", "brave", "bold", "courageous"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "irk",
+    "definition": "to irritate or annoy someone",
+    "exampleSentence": "The constant tapping of his pencil began to irk his classmates.",
+    "synonyms": ["annoy", "irritate", "bother", "vex"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "jest",
+    "definition": "a joke or witty remark",
+    "exampleSentence": "He said it in jest, but she took his comment seriously.",
+    "synonyms": ["joke", "quip", "wisecrack", "prank"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "jeopardize",
+    "definition": "to put something at risk of being lost, harmed, or destroyed",
+    "exampleSentence": "Skipping practice could jeopardize your spot on the team.",
+    "synonyms": ["endanger", "risk", "threaten", "imperil"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "lofty",
+    "definition": "of great height; proud and superior in attitude",
+    "exampleSentence": "The lofty mountains were visible from many miles away.",
+    "synonyms": ["tall", "high", "towering", "elevated"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "loathe",
+    "definition": "to feel intense dislike or hatred for something",
+    "exampleSentence": "She loathes waking up early on cold winter mornings.",
+    "synonyms": ["hate", "detest", "despise", "abhor"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "luminous",
+    "definition": "giving off light; bright or shining",
+    "exampleSentence": "The luminous stars filled the sky on the clear summer night.",
+    "synonyms": ["bright", "glowing", "radiant", "shining"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "lush",
+    "definition": "growing thickly and healthily; rich and luxurious",
+    "exampleSentence": "The lush green garden was filled with colorful flowers.",
+    "synonyms": ["abundant", "thick", "green", "luxuriant"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "mar",
+    "definition": "to damage or spoil the appearance or quality of something",
+    "exampleSentence": "A single scratch can mar the surface of an otherwise perfect table.",
+    "synonyms": ["damage", "spoil", "ruin", "blemish"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "meander",
+    "definition": "to wander at random or follow a winding course",
+    "exampleSentence": "The river meanders through the valley before reaching the sea.",
+    "synonyms": ["wander", "wind", "roam", "drift"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "menace",
+    "definition": "a person or thing that is likely to cause harm; a threat",
+    "exampleSentence": "Reckless drivers are a menace to everyone on the road.",
+    "synonyms": ["threat", "danger", "hazard", "peril"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "mend",
+    "definition": "to repair something that is broken or damaged",
+    "exampleSentence": "She used a needle and thread to mend the hole in her jacket.",
+    "synonyms": ["repair", "fix", "patch", "restore"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "merciful",
+    "definition": "showing compassion or forgiveness toward someone",
+    "exampleSentence": "The merciful judge gave the young offender a second chance.",
+    "synonyms": ["compassionate", "forgiving", "lenient", "kind"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "mingle",
+    "definition": "to move around and talk to other people at a social event",
+    "exampleSentence": "Guests were encouraged to mingle and get to know each other at the party.",
+    "synonyms": ["socialize", "mix", "interact", "blend"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "monotonous",
+    "definition": "dull and tedious because of a lack of variety",
+    "exampleSentence": "The monotonous hum of the engine made the passengers sleepy.",
+    "synonyms": ["boring", "repetitive", "dull", "tedious"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "muse",
+    "definition": "to think about something carefully and for a long time",
+    "exampleSentence": "She sat by the window and mused about what the future might hold.",
+    "synonyms": ["ponder", "reflect", "contemplate", "think"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "negate",
+    "definition": "to cancel out or make something ineffective",
+    "exampleSentence": "Eating junk food every day could negate the benefits of exercise.",
+    "synonyms": ["cancel", "undo", "nullify", "invalidate"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "nomadic",
+    "definition": "living a life of moving from place to place rather than settling permanently",
+    "exampleSentence": "The nomadic tribes traveled across the desert following their herds.",
+    "synonyms": ["wandering", "roaming", "traveling", "migratory"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "obscurity",
+    "definition": "the state of being unknown or unimportant",
+    "exampleSentence": "The author lived in obscurity before her novel became a bestseller.",
+    "synonyms": ["anonymity", "insignificance", "oblivion"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "obstinate",
+    "definition": "stubbornly refusing to change one's opinion or course of action",
+    "exampleSentence": "The obstinate mule refused to move no matter how hard the farmer pulled.",
+    "synonyms": ["stubborn", "unyielding", "headstrong", "willful"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "opaque",
+    "definition": "not able to be seen through; not transparent",
+    "exampleSentence": "The opaque curtains blocked all the sunlight from entering the room.",
+    "synonyms": ["cloudy", "murky", "nontransparent", "dark"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "parch",
+    "definition": "to make something extremely dry, especially from heat",
+    "exampleSentence": "The hot sun parched the farmer's fields during the long drought.",
+    "synonyms": ["dry out", "dehydrate", "scorch", "wither"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "peculiar",
+    "definition": "strange or unusual; belonging specifically to a person or place",
+    "exampleSentence": "The house had a peculiar smell that no one could identify.",
+    "synonyms": ["strange", "odd", "unusual", "bizarre"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "pensive",
+    "definition": "deeply thoughtful, often with a sad or serious mood",
+    "exampleSentence": "She sat in pensive silence after reading the letter from her grandmother.",
+    "synonyms": ["thoughtful", "reflective", "contemplative", "brooding"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "perceive",
+    "definition": "to become aware of something through the senses or mind",
+    "exampleSentence": "She could perceive the tension in the room as soon as she walked in.",
+    "synonyms": ["notice", "sense", "detect", "recognize"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "perish",
+    "definition": "to die, especially in a sudden or violent way",
+    "exampleSentence": "Without water, the plants will perish in the summer heat.",
+    "synonyms": ["die", "expire", "pass away", "succumb"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "perpetual",
+    "definition": "never ending or changing; occurring repeatedly",
+    "exampleSentence": "The perpetual motion of the ocean waves was mesmerizing to watch.",
+    "synonyms": ["constant", "endless", "eternal", "continuous"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "plight",
+    "definition": "a dangerous, difficult, or unfortunate situation",
+    "exampleSentence": "The documentary highlighted the plight of endangered species.",
+    "synonyms": ["predicament", "difficulty", "trouble", "hardship"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "plunder",
+    "definition": "to steal goods using force, especially during a war or riot",
+    "exampleSentence": "The pirates planned to plunder the treasure from the merchant ship.",
+    "synonyms": ["loot", "rob", "pillage", "ransack"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "poised",
+    "definition": "having a composed and graceful manner; ready for action",
+    "exampleSentence": "The poised dancer moved gracefully across the stage.",
+    "synonyms": ["composed", "graceful", "balanced", "self-assured"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "ponder",
+    "definition": "to think about something carefully for a long time before deciding",
+    "exampleSentence": "He sat quietly to ponder the meaning of the poem.",
+    "synonyms": ["consider", "think about", "reflect on", "deliberate"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "pompous",
+    "definition": "affectedly grand or self-important",
+    "exampleSentence": "The pompous man bragged about his accomplishments at every opportunity.",
+    "synonyms": ["arrogant", "conceited", "pretentious", "self-important"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "precarious",
+    "definition": "not securely held; dependent on chance or uncertain circumstances",
+    "exampleSentence": "The vase was in a precarious position on the edge of the shelf.",
+    "synonyms": ["unstable", "risky", "uncertain", "dangerous"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "pristine",
+    "definition": "in its original condition; unspoiled and perfectly clean",
+    "exampleSentence": "The pristine beach had white sand and crystal-clear water.",
+    "synonyms": ["spotless", "pure", "clean", "untouched"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "proclaim",
+    "definition": "to announce something publicly or officially",
+    "exampleSentence": "The mayor proclaimed the day a holiday in honor of the local hero.",
+    "synonyms": ["announce", "declare", "state", "broadcast"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "prodigy",
+    "definition": "a young person with exceptional talent or ability",
+    "exampleSentence": "The musical prodigy could play the piano brilliantly at age five.",
+    "synonyms": ["genius", "wonder", "talent", "virtuoso"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "propaganda",
+    "definition": "information used to promote a particular point of view, often misleading",
+    "exampleSentence": "During the war, the government used propaganda to influence public opinion.",
+    "synonyms": ["misinformation", "publicity", "promotion"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "quell",
+    "definition": "to put an end to something, typically by force; to calm or reduce",
+    "exampleSentence": "The principal spoke calmly to quell the students' fears about the change.",
+    "synonyms": ["suppress", "calm", "subdue", "silence"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "radiant",
+    "definition": "shining brightly; clearly showing joy or health",
+    "exampleSentence": "The bride looked radiant as she walked down the aisle.",
+    "synonyms": ["glowing", "bright", "beaming", "shining"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "rampant",
+    "definition": "spreading quickly and out of control",
+    "exampleSentence": "Rumors were rampant throughout the school after the announcement.",
+    "synonyms": ["widespread", "uncontrolled", "unchecked", "rife"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "rebuke",
+    "definition": "to sharply criticize or scold someone for doing something wrong",
+    "exampleSentence": "The coach rebuked the player for being late to practice.",
+    "synonyms": ["scold", "reprimand", "criticize", "admonish"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "recur",
+    "definition": "to happen again or repeatedly",
+    "exampleSentence": "The same dream seemed to recur every few weeks.",
+    "synonyms": ["repeat", "return", "reappear", "reoccur"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "refuge",
+    "definition": "a place that provides shelter or protection from danger",
+    "exampleSentence": "The hikers found refuge in a cave when the storm suddenly began.",
+    "synonyms": ["shelter", "sanctuary", "haven", "retreat"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "relentless",
+    "definition": "never stopping or giving up; harsh and unyielding",
+    "exampleSentence": "The relentless rain lasted for three days and caused severe flooding.",
+    "synonyms": ["persistent", "unceasing", "unstoppable", "fierce"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "reprimand",
+    "definition": "a formal expression of disapproval; a scolding",
+    "exampleSentence": "The student received a reprimand from the teacher for talking in class.",
+    "synonyms": ["scolding", "rebuke", "criticism", "admonishment"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "resignation",
+    "definition": "the act of giving up a position, or acceptance of something undesirable but unavoidable",
+    "exampleSentence": "He accepted his defeat with quiet resignation.",
+    "synonyms": ["acceptance", "submission", "surrender"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "revoke",
+    "definition": "to officially cancel or take back a decision, law, or privilege",
+    "exampleSentence": "The school threatened to revoke his library privileges if he returned books late again.",
+    "synonyms": ["cancel", "withdraw", "repeal", "retract"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "roam",
+    "definition": "to move about freely without a fixed course or destination",
+    "exampleSentence": "The deer roam freely through the forest during the early morning.",
+    "synonyms": ["wander", "rove", "drift", "stray"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "saga",
+    "definition": "a long and detailed account of connected events; an epic story",
+    "exampleSentence": "The book tells the saga of a family spanning several generations.",
+    "synonyms": ["epic", "chronicle", "tale", "narrative"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "sanctuary",
+    "definition": "a place of safety, protection, or shelter",
+    "exampleSentence": "The wildlife sanctuary provides a safe home for injured animals.",
+    "synonyms": ["refuge", "haven", "shelter", "retreat"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "scoff",
+    "definition": "to speak about something in a mocking or scornful way",
+    "exampleSentence": "The critics scoffed at the idea that the underdog team could win.",
+    "synonyms": ["mock", "ridicule", "sneer", "jeer"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "sever",
+    "definition": "to cut off or break apart completely",
+    "exampleSentence": "The storm severed the power lines, leaving the town without electricity.",
+    "synonyms": ["cut", "separate", "detach", "disconnect"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "sheer",
+    "definition": "nothing but; absolute; extremely steep",
+    "exampleSentence": "The sheer cliff face dropped hundreds of feet to the ocean below.",
+    "synonyms": ["absolute", "complete", "steep", "utter"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "soothe",
+    "definition": "to gently calm or relieve pain or distress",
+    "exampleSentence": "The mother sang a lullaby to soothe her crying baby.",
+    "synonyms": ["calm", "comfort", "ease", "relieve"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "spurn",
+    "definition": "to reject with disdain or contempt",
+    "exampleSentence": "She spurned his offer to help because she wanted to do it herself.",
+    "synonyms": ["reject", "refuse", "rebuff", "dismiss"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "steadfast",
+    "definition": "firmly loyal and unwavering in purpose or belief",
+    "exampleSentence": "She remained steadfast in her commitment to the project despite setbacks.",
+    "synonyms": ["loyal", "faithful", "devoted", "unwavering"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "strenuous",
+    "definition": "requiring or using great effort and energy",
+    "exampleSentence": "The strenuous hike up the mountain left everyone exhausted.",
+    "synonyms": ["demanding", "exhausting", "arduous", "tiring"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "subside",
+    "definition": "to become less intense, violent, or severe",
+    "exampleSentence": "The flooding began to subside once the rain finally stopped.",
+    "synonyms": ["diminish", "lessen", "ease", "abate"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "summon",
+    "definition": "to urgently call someone to come or to gather one's resources",
+    "exampleSentence": "The king sent a messenger to summon all the knights to the castle.",
+    "synonyms": ["call", "send for", "convene", "muster"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "supplant",
+    "definition": "to take the place of someone or something, especially by force",
+    "exampleSentence": "Smartphones have supplanted traditional cameras for most people.",
+    "synonyms": ["replace", "displace", "supersede", "overthrow"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "surmount",
+    "definition": "to overcome a difficulty or obstacle",
+    "exampleSentence": "With determination, she was able to surmount every challenge she faced.",
+    "synonyms": ["overcome", "conquer", "triumph over", "master"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "susceptible",
+    "definition": "likely to be influenced or affected by something",
+    "exampleSentence": "Young children are more susceptible to colds and flu.",
+    "synonyms": ["vulnerable", "prone", "sensitive", "liable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "tactic",
+    "definition": "a planned action or strategy for achieving a goal",
+    "exampleSentence": "The coach introduced a new tactic to help the team win the next game.",
+    "synonyms": ["strategy", "plan", "maneuver", "approach"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "taunt",
+    "definition": "to provoke or make fun of someone with insulting remarks",
+    "exampleSentence": "The crowd tried to taunt the opposing players to distract them.",
+    "synonyms": ["tease", "mock", "ridicule", "jeer"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "terrain",
+    "definition": "the physical features of a stretch of land",
+    "exampleSentence": "The rough terrain made it difficult for the hikers to advance.",
+    "synonyms": ["landscape", "ground", "land", "topography"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "torment",
+    "definition": "severe physical or mental suffering; to cause great suffering",
+    "exampleSentence": "The mosquitoes continued to torment the campers throughout the night.",
+    "synonyms": ["torture", "agony", "anguish", "suffering"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "transparent",
+    "definition": "allowing light to pass through so that objects behind can be clearly seen; easy to perceive",
+    "exampleSentence": "The transparent glass walls gave a clear view of the garden outside.",
+    "synonyms": ["clear", "see-through", "obvious", "open"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "tumultuous",
+    "definition": "making a loud, confused noise; emotionally turbulent",
+    "exampleSentence": "The tumultuous crowd erupted in cheers when the winning goal was scored.",
+    "synonyms": ["noisy", "chaotic", "turbulent", "stormy"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "uncanny",
+    "definition": "strange or mysterious, especially in an unsettling way",
+    "exampleSentence": "She has an uncanny ability to predict what will happen next.",
+    "synonyms": ["strange", "eerie", "remarkable", "mysterious"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "undertake",
+    "definition": "to commit oneself to and begin a task or project",
+    "exampleSentence": "The volunteers agreed to undertake the cleanup of the beach.",
+    "synonyms": ["begin", "attempt", "embark on", "tackle"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "tags": ["lower-level"]
+  },
+  {
+    "word": "usurp",
+    "definition": "to take power or a position illegally or by force",
+    "exampleSentence": "The general attempted to usurp the throne from the rightful king.",
+    "synonyms": ["seize", "overthrow", "take over", "commandeer"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "vehement",
+    "definition": "showing strong feeling; forceful and passionate",
+    "exampleSentence": "She made a vehement argument against cutting the school's art program.",
+    "synonyms": ["passionate", "forceful", "fierce", "intense"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "vindicate",
+    "definition": "to clear someone of blame or suspicion; to prove correct",
+    "exampleSentence": "The new evidence helped vindicate the man who had been wrongfully accused.",
+    "synonyms": ["justify", "clear", "exonerate", "absolve"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "volatile",
+    "definition": "liable to change rapidly and unpredictably, especially for the worse",
+    "exampleSentence": "The volatile situation in the region made travel unsafe.",
+    "synonyms": ["unstable", "unpredictable", "explosive", "changeable"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "voracious",
+    "definition": "wanting or eating a very large amount of food; having a strong desire for something",
+    "exampleSentence": "The voracious reader finished three books in a single weekend.",
+    "synonyms": ["insatiable", "greedy", "ravenous", "eager"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "tags": ["upper-level"]
+  },
+  {
+    "word": "wrath",
+    "definition": "extreme anger; furious rage",
+    "exampleSentence": "The students feared the wrath of their strict teacher.",
+    "synonyms": ["anger", "fury", "rage", "indignation"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  },
+  {
+    "word": "zeal",
+    "definition": "great energy or enthusiasm in pursuit of a goal or cause",
+    "exampleSentence": "The young volunteers worked with zeal to prepare for the charity event.",
+    "synonyms": ["enthusiasm", "passion", "eagerness", "fervor"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "tags": ["middle-level"]
+  }
+]

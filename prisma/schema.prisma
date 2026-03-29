@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Word {
+  id              Int      @id @default(autoincrement())
+  word            String   @unique
+  definition      String
+  exampleSentence String?
+  synonyms        String?  // JSON string array
+  partOfSpeech    String   // noun, verb, adjective, adverb
+  difficulty      Int      @default(1) // 1=easy, 2=medium, 3=hard
+  tags            String?  // JSON string array
+  createdAt       DateTime @default(now())
+
+  progress UserWordProgress[]
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  level     String   @default("Middle") // Lower, Middle, Upper
+  createdAt DateTime @default(now())
+
+  progress UserWordProgress[]
+  sessions ReviewSession[]
+}
+
+model UserWordProgress {
+  id             Int       @id @default(autoincrement())
+  userId         Int
+  wordId         Int
+  box            Int       @default(1) // Leitner box 1-5
+  nextReviewDate DateTime  @default(now())
+  lastReviewDate DateTime?
+  correctStreak  Int       @default(0)
+  totalReviews   Int       @default(0)
+  totalCorrect   Int       @default(0)
+
+  user User @relation(fields: [userId], references: [id])
+  word Word @relation(fields: [wordId], references: [id])
+
+  @@unique([userId, wordId])
+  @@index([userId, nextReviewDate])
+  @@index([userId, box])
+}
+
+model ReviewSession {
+  id            Int       @id @default(autoincrement())
+  userId        Int
+  startedAt     DateTime  @default(now())
+  completedAt   DateTime?
+  wordsReviewed Int       @default(0)
+  correctCount  Int       @default(0)
+  duration      Int?      // seconds
+
+  user User @relation(fields: [userId], references: [id])
+}
