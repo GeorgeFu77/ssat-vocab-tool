@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
-import { BookOpen, RotateCcw, Home, List } from "lucide-react";
+import { BookOpen, RotateCcw, Home, List, BarChart3 } from "lucide-react";
 import { useEffect, useState } from "react";
 
 interface NavItem {
@@ -17,6 +17,7 @@ const navItems: NavItem[] = [
   { href: "/study", label: "Study", icon: <BookOpen size={18} /> },
   { href: "/review", label: "Review", icon: <RotateCcw size={18} /> },
   { href: "/words", label: "Words", icon: <List size={18} /> },
+  { href: "/progress", label: "Progress", icon: <BarChart3 size={18} /> },
 ];
 
 export default function Navigation() {
