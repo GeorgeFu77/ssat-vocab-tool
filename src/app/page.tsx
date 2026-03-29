@@ -39,12 +39,20 @@ export default function Home() {
         Press the card to flip it
       </p>
 
-      <Link
-        href="/study"
-        className="mt-8 bg-indigo-700 hover:bg-indigo-600 px-6 py-3 rounded-lg transition font-semibold"
-      >
-        Study
-      </Link>
+      <div className="flex gap-4 mt-8">
+        <Link
+          href="/study"
+          className="bg-indigo-700 hover:bg-indigo-600 px-6 py-3 rounded-lg transition font-semibold"
+        >
+          Study
+        </Link>
+        <Link
+          href="/quiz"
+          className="bg-emerald-700 hover:bg-emerald-600 px-6 py-3 rounded-lg transition font-semibold"
+        >
+          Quiz
+        </Link>
+      </div>
     </main>
   );
 }
