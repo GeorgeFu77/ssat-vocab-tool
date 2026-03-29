@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import Flashcard from "@/components/Flashcard";
 import words from "@/data/words.json";
 
@@ -37,6 +38,13 @@ export default function Home() {
       <p className="text-gray-600 text-xs mt-6">
         Press the card to flip it
       </p>
+
+      <Link
+        href="/study"
+        className="mt-8 bg-indigo-700 hover:bg-indigo-600 px-6 py-3 rounded-lg transition font-semibold"
+      >
+        Study
+      </Link>
     </main>
   );
 }
