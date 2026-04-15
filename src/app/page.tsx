@@ -52,6 +52,12 @@ export default function Home() {
         >
           Quiz
         </Link>
+        <Link
+          href="/progress"
+          className="bg-amber-700 hover:bg-amber-600 px-6 py-3 rounded-lg transition font-semibold"
+        >
+          Progress
+        </Link>
       </div>
     </main>
   );
