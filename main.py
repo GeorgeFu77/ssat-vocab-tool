@@ -5,6 +5,7 @@ print("diggity dawg")
 words = open("words.csv")
 reader = csv.DictReader(words)
 word = list(reader)
+print(word[0])
 
 print(len(word))
 while True:  
