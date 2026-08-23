@@ -36,12 +36,12 @@ while True:
   elif choice == "3":
     while True:
       card = random.choice(word)
-        print(card["word"])
-        input("Press enter to reveal definition")
-        print("The definition of",card["word"],"is:",card["definition"],"and the set number of this word is",card["set"])
-        sme = input("Enter for next card, or press q to quit").lower().strip()
-        if sme == "q":
-          break
+      print(card["word"])
+      input("Press enter to reveal definition")
+      print("The definition of",card["word"],"is:",card["definition"],"and the set number of this word is",card["set"])
+      sme = input("Enter for next card, or press q to quit").lower().strip()
+      if sme == "q":
+        break
   elif choice == "4":
       quit()
   
