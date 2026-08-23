@@ -2,11 +2,14 @@ import csv
 
 print("diggity dawg")
 
-words = open("words.csv")
-reader = csv.DictReader(words)
-word = list(reader)
+def load_words():
+  words = open("words.csv")
+  reader = csv.DictReader(words)
+  word = list(reader)
+  return(word)
+word=load_words()
 
-print(len(word))
+print("Loaded",len(word),"words")
 while True:  
   choice = input("1) View all words, 2) Search, 3) Exit: ")
   
@@ -33,4 +36,4 @@ while True:
       quit()
   
   else:
-      print("you are actually stupid")
+      print("Bro it's 1, 2, or 3")
