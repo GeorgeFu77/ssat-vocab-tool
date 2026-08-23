@@ -1,4 +1,5 @@
 import csv
+import random
 
 print("diggity dawg")
 
@@ -34,6 +35,12 @@ while True:
 
   elif choice == "3":
     print("works")
+    answer = input("What word set would you like to review? We have 15, 16, and 17.")
+    card = random.choice(word)
+    if answer == "15":
+      print(card["word"])
+      input("Press enter to reveal definition")
+      print("The definition of",card["word"],"is:",card["definition"],"and the set number of this word is",card["set"])
   
   elif choice == "4":
       quit()
