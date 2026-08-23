@@ -3,9 +3,9 @@ import csv
 print("diggity dawg")
 
 def load_words():
-  words = open("words.csv")
-  reader = csv.DictReader(words)
-  word = list(reader)
+  with open("words.csv",encoding="utf-8",newline="") as wo:
+    reader = csv.DictReader(wo)
+    word = list(reader)
   return(word)
 word=load_words()
 
