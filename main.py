@@ -11,7 +11,7 @@ word=load_words()
 
 print("Loaded",len(word),"words")
 while True:  
-  choice = input("1) View all words, 2) Search, 3) Exit: ")
+  choice = input("1) View all words, 2) Search, 3) Flashcards, 4) Exit: ")
   
   if choice == "1":
       for row in word:
@@ -31,9 +31,12 @@ while True:
   
       if found == False:
           print("Word not found")
-  
+
   elif choice == "3":
+    print("works")
+  
+  elif choice == "4":
       quit()
   
   else:
-      print("Bro it's 1, 2, or 3")
+      print("Bro it's 1, 2, 3, or 4")
