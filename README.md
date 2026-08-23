@@ -38,3 +38,13 @@ Set: 15
 ## Week 2 Goals
 
 - Add a quiz mode that tests you on the words
+
+## Flashcard instructions
+
+Pick option 3 in the main page.
+It will show you a random word and then when you want the answer you press enter.
+Press enter for the next flashcard and q to quit.
+
+## Week 3 Goals
+
+- Add a quiz mode that tests you on the words and scores you.
