@@ -11,25 +11,25 @@ def load_words():
 word=load_words()
 
 print("Loaded",len(word),"words")
-while True:  
-  choice = input("1) View all words, 2) Search, 3) Flashcards, 4) Exit: ")
-  
+while True:
+  choice = input("1) View all words, 2) Search, 3) Flashcards, 4) Quiz, 5) Exit: ")
+
   if choice == "1":
       for row in word:
           print(row["word"], row["definition"], row["set"])
-  
+
   elif choice == "2":
       search = input("What word do you want to search? ").lower().strip()
-  
+
       found = False
-  
+
       for row in word:
           if row["word"].lower() == search:
               print("Word:", row["word"])
               print("Definition:", row["definition"])
               print("Set:", row["set"])
               found = True
-  
+
       if found == False:
           print("Word not found")
 
@@ -42,8 +42,42 @@ while True:
       sme = input("Enter for next card, or press q to quit").lower().strip()
       if sme == "q":
         break
+
   elif choice == "4":
+      counter = 0
+      score = 0
+      while counter < 10:
+          Wcard = random.choice(word)
+          print("\nQuestion", counter + 1)
+          print("What does", Wcard["word"], "mean?")
+          incorrect_answers = []
+          while len(incorrect_answers) < 3:
+              wrong_card = random.choice(word)
+              wrong_answer = wrong_card["definition"]
+              if wrong_answer != Wcard["definition"] and wrong_answer not in incorrect_answers:
+                  incorrect_answers.append(wrong_answer)
+          answers = incorrect_answers + [Wcard["definition"]]
+          random.shuffle(answers)
+          for i, answer in enumerate(answers):
+              print(str(i + 1) + ".", answer)
+          answer = input("Your answer (1-4): ").strip()
+          if answer.isdigit() and 1 <= int(answer) <= 4:
+              selected_answer = answers[int(answer) - 1]
+              if selected_answer == Wcard["definition"]:
+                  print("Correct!")
+                  score += 1
+              else:
+                  print("Incorrect!")
+                  print("The correct answer was:", Wcard["definition"])
+          else:
+              print("Invalid choice!")
+              print("The correct answer was:", Wcard["definition"])
+          counter += 1
+      print("\nQuiz finished!")
+      print("You got", score, "out of 10 correct.")
+
+  elif choice == "5":
       quit()
-  
+
   else:
-      print("Bro it's 1, 2, 3, or 4")
+      print("Bro it's 1, 2, 3, 4, or 5")
