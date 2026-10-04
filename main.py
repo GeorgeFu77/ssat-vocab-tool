@@ -3,13 +3,11 @@ import random
 
 print("diggity dawg")
 
-
 def load_words():
     with open("words.csv", encoding="utf-8", newline="") as wo:
         reader = csv.DictReader(wo)
         word = list(reader)
         return word
-
 
 word = load_words()
 
@@ -57,61 +55,69 @@ while True:
                 break
 
     elif choice == "4":
-      counter = 0
-      score = 0
-      missed = []
-  
-      while counter < 10:
-          Wcard = random.choice(word)
-  
-          print("\nQuestion", counter + 1)
-          print("What does", Wcard["word"], "mean?")
-  
-          incorrect_answers = []
-  
-          while len(incorrect_answers) < 3:
-              wrong_card = random.choice(word)
-              wrong_answer = wrong_card["definition"]
-  
-              if wrong_answer != Wcard["definition"] and wrong_answer not in incorrect_answers:
-                  incorrect_answers.append(wrong_answer)
-  
-          answers = incorrect_answers + [Wcard["definition"]]
-          random.shuffle(answers)
-  
-          for i, answer in enumerate(answers):
-              print(str(i + 1) + ".", answer)
-  
-          answer = input("Your answer (1-4): ").strip()
-  
-          if answer.isdigit() and 1 <= int(answer) <= 4:
-              selected_answer = answers[int(answer) - 1]
-  
-              if selected_answer == Wcard["definition"]:
-                  print("Correct!")
-                  score += 1
-              else:
-                  print("Incorrect!")
-                  print("The correct answer was:", Wcard["definition"])
-                  missed.append(Wcard)
-  
-          else:
-              print("Invalid choice!")
-              print("The correct answer was:", Wcard["definition"])
-              missed.append(Wcard)
-  
-          counter += 1
-  
-      print("\nQuiz finished!")
-      print("You got", score, "out of 10 correct.")
-  
-      if len(missed) == 0:
-          print("No missed words!")
-        
-      else:
-          print("Words to study:")
-          for card in missed:
-              print(card["word"], "-", card["definition"])
+        counter = 0
+        score = 0
+        missed = []
+        results = []
+
+        while counter < 10:
+            Wcard = random.choice(word)
+
+            print("\nQuestion", counter + 1)
+            print("What does", Wcard["word"], "mean?")
+
+            incorrect_answers = []
+
+            while len(incorrect_answers) < 3:
+                wrong_card = random.choice(word)
+                wrong_answer = wrong_card["definition"]
+
+                if wrong_answer != Wcard["definition"] and wrong_answer not in incorrect_answers:
+                    incorrect_answers.append(wrong_answer)
+
+            answers = incorrect_answers + [Wcard["definition"]]
+            random.shuffle(answers)
+
+            for i, answer in enumerate(answers):
+                print(str(i + 1) + ".", answer)
+
+            answer = input("Your answer (1-4): ").strip()
+
+            if answer.isdigit() and 1 <= int(answer) <= 4:
+                selected_answer = answers[int(answer) - 1]
+
+                if selected_answer == Wcard["definition"]:
+                    print("Correct!")
+                    score += 1
+                    results.append([Wcard["word"], "right"])
+                else:
+                    print("Incorrect!")
+                    print("The correct answer was:", Wcard["definition"])
+                    missed.append(Wcard)
+                    results.append([Wcard["word"], "wrong"])
+
+            else:
+                print("Invalid choice!")
+                print("The correct answer was:", Wcard["definition"])
+                missed.append(Wcard)
+                results.append([Wcard["word"], "wrong"])
+
+            counter += 1
+
+        print("\nQuiz finished!")
+        print("You got", score, "out of 10 correct.")
+
+        if len(missed) == 0:
+            print("No missed words!")
+        else:
+            print("Words to study:")
+            for card in missed:
+                print(card["word"], "-", card["definition"])
+
+        with open("progress.csv", "a", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerows(results)
+
     elif choice == "5":
         quit()
 
